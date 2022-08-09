@@ -1,13 +1,12 @@
 html {
-    font: 1.1em;
+    font: 1em;
     font-family: Arial, sans-serif;
-
     color: white;
 }
 
 header {
-
     background-color: #00003f;
+
     font-family: 'Lobster';
     font-weight: bold;
     font-size: 3em;
@@ -28,21 +27,22 @@ header {
 
 nav {
     background-color: #000040;
+
     margin-bottom: 4px;
     margin-bottom: 4px;
     margin-left: 4px;
     margin-right: 4px;
+
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-
 }
 
 nav li {
@@ -50,7 +50,6 @@ nav li {
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
-    width: 50%;
     flex-grow: 1;
 
     padding-top: 5px;
@@ -70,7 +69,7 @@ nav li:last-child {
 }
 
 nav li:hover {
-    background-color: darkgreen;
+    text-decoration: underline;
 }
 
 main {
@@ -86,11 +85,26 @@ article {
     margin-left: 4px;
     margin-right: 4px;
 
-    background-color: #cbcbff;
+    background-color: #dddddd;
+
+    font-weight: 100;
 }
 
 article h2 {
     background-color: #00003f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+article h3 {
+    background-color: #000080;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
