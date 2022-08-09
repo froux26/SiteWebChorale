@@ -1,28 +1,25 @@
 html {
     font: 1.1em;
     font-family: Arial, sans-serif;
-    
-    margin-bottom: 4px;
-    margin-bottom: 4px;
-    margin-left: 4px;
-    margin-right: 4px;
+
     color: white;
 }
 
 header {
-    
-    background-color:#00003f;
-    font-family:'Lobster';
+
+    background-color: #00003f;
+    font-family: 'Lobster';
     font-weight: bold;
     font-size: 3em;
     text-align: center;
 
-    
+
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 4px;
+
+    margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 4px;
     margin-right: 4px;
@@ -42,8 +39,10 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    flex-direction: row;
     list-style: none;
-    
+
 }
 
 nav li {
@@ -51,50 +50,65 @@ nav li {
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
+    width: 50%;
+    flex-grow: 1;
 
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-    margin-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 4px;
     margin-right: 4px;
     border-right: solid white;
 }
 
-nav li:last-child{
+nav li:last-child {
     border-right: 0;
 }
 
-nav li:hover{
+nav li:hover {
     background-color: darkgreen;
 }
 
-.container {
+main {
     display: flexbox;
-   
 }
 
-.item {
+article {
     border-color: #00003f;
     border-style: solid;
-    
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-    margin-bottom: 4px;
+
+    margin-top: 4px;
     margin-bottom: 4px;
     margin-left: 4px;
     margin-right: 4px;
-    
-    color: black;
-    background-color: #cbcbff;    
+
+    background-color: #cbcbff;
 }
 
-.item h2{
-    color: #00003f;
-]
+article h2 {
+    background-color: #00003f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+
+article p {
+    color: black;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
