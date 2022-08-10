@@ -1,6 +1,7 @@
 html {
-    font: 1em;
-    font-family: Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+
     color: white;
 }
 
@@ -11,24 +12,18 @@ body {
 header {
     background-color: #00003f;
 
-    font-family: 'Lobster';
     font-weight: bold;
     font-size: 3em;
     text-align: center;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-
+    padding: 10px;
 }
 
 nav {
     background-color: #000080;
 
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
-    padding: 4px;
 }
 
 nav ul {
@@ -36,6 +31,7 @@ nav ul {
     flex-direction: row;
     margin: 0px;
     list-style: none;
+
 }
 
 nav li {
@@ -44,14 +40,11 @@ nav li {
     font-weight: bold;
     vertical-align: middle;
     margin: 0px;
-    padding-top: 4px;
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
 }
 
 nav ul li.active-page {
-    border-bottom: 3px solid white;
+    background-color: #00003f;
 }
 
 nav ul li a {
@@ -64,10 +57,6 @@ main {
 }
 
 article {
-    border-left: 1px solid #3d3d3d;
-    border-right: 1px solid #3d3d3d;
-    border-bottom: 1px solid #3d3d3d;
-
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 10px;
@@ -77,16 +66,18 @@ article {
 }
 
 article h2 {
-    background-color: #3d3d3d;
+    color: #00003f;
+    border-bottom: 2px solid #00003f;
     margin: 0px;
     padding: 5px;
+    padding-bottom: 2px;
 }
 
 article h3 {
-    background-color: #616161;
+    color: #000080;
     font-size: 0.8em;
     margin: 0px;
-    padding: 5px;
+    padding: 8px;
 }
 
 article p {
