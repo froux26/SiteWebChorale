@@ -11,13 +11,16 @@ body {
 }
 
 header {
-    background-color: #00003f;
-
+    background: url("./images/bandeau.png") center center / cover no-repeat;
     font-weight: bold;
     font-size: 3em;
     text-align: center;
 
     padding: 10px;
+}
+
+header img.fit-picture {
+    width: 100%;
 }
 
 nav {
@@ -32,7 +35,6 @@ nav ul {
     flex-direction: row;
     margin: 0px;
     list-style: none;
-
 }
 
 nav li {
@@ -79,6 +81,23 @@ article h3 {
     font-size: 0.8em;
     margin: 0px;
     padding: 8px;
+}
+
+article content {
+    display: flex;
+    flex-direction: column;
+}
+
+article content img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+article content div {
+    flex: 1;
 }
 
 article p {
